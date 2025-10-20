@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1A0B0B;
+ 
+    color: #EAE6E1;
+}
+.title h1 {
+    text-align: center;
+    color: #e5e5e5;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+    letter-spacing: 0.04em;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url('https://assets.gam3s.gg/1755788388009_hollow_knight_silksong_banner_ec2ca188c6.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;;
+}
+
+
+main .container {
+    overflow: hidden;
+    position:relative;
+    height: auto;
+    width: 750px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #2B1313;
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+
+}.container h1{
+    z-index: 2;
+    position : relative;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:#F29F05;
+    background-color: #732020;
+    padding: 30px;
+    margin: 0 0 20px 0;
+    
+}
+
+    .text {
+    margin-top: 0;
+    position:relative;
+    margin: 40px auto 20px auto;
+    color: #EAE6E1;
+    background-color: #732020;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    text-align: center;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #A62424;
+    border-radius: 20px;
+    width: auto;                
+    height: 100px;               
+    margin:10px;               
+    box-sizing: border-box;       
+}
+.box:hover{
+    background-color: #FF5C5C;
+    color: #0E0B10;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+a{
+    text-decoration: none;
+    color: #EAE6E1;
+    text-transform: lowercase;
+}
+
+
+a:hover{
+    text-decoration: underline;
+    color: #302727;
+    text-transform: uppercase;
+}.text:hover{
+    transition: all 0.3s ease;
+    background-color: #A62424;
+}
+.carretel img{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+    z-index: 1;
+  
+}
+.carretel img:hover{
+    transition: width 0.3s ease, height 0.3s ease;
+    width: 600px;
+    }
+    .mapa img{
+        display: block;
+        margin: 40px auto 40px auto; 
+        width: 600px;
+        height: 500px;
+        z-index: 1;
+        border-radius: 20px;  
+        transition: transform 0.3s ease;
+    }
+    .mapa img:hover{
+        transform: scale(1.1);
+        background-position: center;
+    }
+    .text img{
+    width: 100%; 
+    height: auto;
+    display: block; 
+    border-radius: 10px;
+    border: #161616 3px solid;
+    margin: 20px auto;
+    max-width: 300px; }
